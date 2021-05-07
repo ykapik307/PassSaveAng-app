@@ -1,0 +1,24 @@
+
+<table class="table table-striped table-dark">
+  <thead>
+    <tr >
+      <th class="head" scope="col">App Name</th>
+      <th class="head" scope="col">Email id</th>
+      <th class="head" scope="col">Password</th>
+      <th class="head" scope="col">Actions</th>
+    
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let app of apps">
+      <th scope="row">{{app.name}}</th>
+      <td class="ccc">{{app.email}}</td>
+      <td class="ccc">{{app.password}}</td>
+      <td class="ccc">
+      <button type="button" (click)="updateApp(app.name)" class="btn btn-primary btn-sm butt">Update</button>
+      <button type="button" (click)="deleteApp(app.name)" class="btn btn-danger btn-sm butt">Delete</button>
+    </td>
+    </tr>
+   
+  </tbody>
+</table>

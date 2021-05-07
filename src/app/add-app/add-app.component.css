@@ -1,0 +1,26 @@
+
+.container{
+ color: white;
+}
+.kk{
+    display: flex;
+    flex-direction:row;
+}
+
+.form-control{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+}
+.btn{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* .row{
+    background-color: rgb(84,131,158);
+} */
+@media screen and (max-width: 600px) {
+    .but {
+      transform: translateX(40%);
+     
+    }
+  }

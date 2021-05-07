@@ -1,0 +1,15 @@
+.kp{
+    position: absolute;
+    right: 2%;
+    font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+    .kp {
+      position: relative;
+      transform: translateX(10px);
+     
+    }
+    .navbar-toggler{
+     margin-right: 10px;
+    }
+  }

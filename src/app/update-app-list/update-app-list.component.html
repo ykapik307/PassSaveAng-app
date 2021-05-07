@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 offset-md-1 mt-5 kk">
+           <div class="col-md-6 offset-md-3">
+            <form (ngSubmit)="onSubmit()">
+                <div class="mb-3">
+                    <label class="form-label">Appliation Name</label>
+                    <input type="text" class="form-control" [(ngModel)]="app.name" name="name" placeholder="Enter app name" id="AppName">
+                  </div>
+                <div class="mb-3">
+                  <label class="form-label">Email address</label>
+                  <input type="email" class="form-control"[(ngModel)]="app.email" name="email" placeholder="Enter Email" id="AppMail" >
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Password</label>
+                  <input type="password" class="form-control" [(ngModel)]="app.password" name="password" placeholder="Enter password" id="Pass">
+                </div>
+                <div class="container text-center">
+                <button type="submit" mat-raised-button color="primary" class="btn mt-3">Submit</button>
+                </div>
+            </form>
+           </div>
+        </div>
+    </div>
+</div>
+
