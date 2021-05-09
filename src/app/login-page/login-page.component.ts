@@ -30,7 +30,7 @@ export class LoginPageComponent implements OnInit {
 
         // we will login now . The token will be stored in the local storage
         this.loginoutService.loginUser(data.token);
-        window.location.href="/add-app";
+        this.router.navigate(['/add-app']);
       },
       error =>console.log(error))
       

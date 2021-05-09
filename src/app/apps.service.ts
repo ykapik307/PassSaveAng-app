@@ -9,7 +9,7 @@ import{LoginoutService} from './loginout.service';
 })
 export class AppsService {
 
-  private baseUrl="http://localhost:9090/apps";
+  private baseUrl="https://pass-save-springboot.herokuapp.com/apps";
   
   constructor(private httpClient:HttpClient,private loginoutService:LoginoutService ) { }
   

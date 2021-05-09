@@ -30,12 +30,13 @@
     }
     .butt{
         margin: 4px 4px;
+        max-width: 60px;
     }
     .bc{
         max-width: 140px;
     }
     .ccc{
-        max-width: 120px;
+        max-width: 70px;
         height: auto;
         word-wrap: break-word;
     }

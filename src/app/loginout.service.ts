@@ -8,7 +8,7 @@ export class LoginoutService {
 
   constructor(private httpClient:HttpClient) { }
 
-  private url="http://localhost:9090";
+  private url="https://pass-save-springboot.herokuapp.com";
    //calling server to generate token
    getTokenFromServer(credentials:any){
     return this.httpClient.post(`${this.url}/token`,credentials);
